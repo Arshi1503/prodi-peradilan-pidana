@@ -98,19 +98,21 @@
                     </div>
                     <!-- end process step item -->
                 </div>
-                <a href="#" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow tw-mt-5 lg:tw-ml-[30rem] tw-ml-16 md:tw-ml-[18rem]">
-                    Selengkapnya
-                    <span class="bg-orient-blue text-white">
-                        <i class="feather icon-feather-arrow-right icon-small"></i>
-                    </span>
-                </a>                        
+                <div class="tw-mt-5 tw-flex tw-justify-center">
+                    <a href="#" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow">
+                        Selengkapnya
+                        <span class="bg-orient-blue text-white">
+                            <i class="feather icon-feather-arrow-right icon-small"></i>
+                        </span>
+                    </a>
+                </div>                    
             </div>
         </section>
         <!-- end section -->
         {{-- start section --}}
         <section class="pt-0 big-section tw-my-20">
             <div class="container">
-                <div class="row align-items-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'> 
+                <div class="tw-flex tw-flex-col-reverse lg:tw-flex-row tw-items-center tw-gap-4" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'> 
                     <div class="col-xl-5 offset-xl-1 col-lg-6 text-center text-lg-start">
                         <h3 class="fw-700 text-dark-gray ls-minus-2px">Kata Sambutan</h3> 
                         <div class="tw-space-y-4 tw-text-justify tw-text-base tw-leading-relaxed tw-w-90 lg:tw-w-95 md:tw-w-full">
@@ -128,13 +130,13 @@
                         </a>                        
                     </div>
                     <div class="col-lg-6 position-relative md-mt-14 sm-mt-17 xs-mt-23"> 
-                        <div class="w-70 md-w-75 xs-w-90 lg:tw-ml-32" data-animation-delay="50" data-shadow-animation="true">
+                        <div class="tw-flex tw-justify-center w-100" data-animation-delay="50">
                             {{-- @if ($pimpinanStaff && $pimpinanStaff->foto)
                                 <img src="{{ asset('storage/' . $pimpinanStaff->foto) }}" alt="" class=" border-radius-8px w-100">                                  
                             @endif --}}
-                            <img src="{{ asset('images/gambar/alumni2.jpg') }}" alt="" class=" border-radius-8px w-100">
+                            <img src="{{ asset('images/gambar/alumni2.jpg') }}" alt="" class="border-radius-8px tw-w-[100%] md:tw-w-[60%]">
                         </div>
-                    </div> 
+                    </div>
                 </div> 
             </div>
         </section>  
@@ -145,7 +147,7 @@
         <section class="py-0 tw-mb-10">
             <div class="container">        
                 <div class="row justify-content-center mb-3">
-                    <div class="col-lg-6 col-md-7 col-sm-8 text-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                    <div class="col-lg-6 text-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                         <h3 class="fw-700 text-dark-gray ls-minus-2px">Berita Terkini</h3>
                     </div>
                 </div>

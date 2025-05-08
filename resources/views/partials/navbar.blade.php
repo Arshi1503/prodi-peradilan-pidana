@@ -27,44 +27,162 @@
         </div>
     </div>
     <!-- start navigation -->
-    <nav class="navbar navbar-expand-lg header-transparent bg-transparent center-logo disable-fixed tw-mt-10">
-        <div class="container-fluid">
-            <div class="col-auto col-lg-2 menu-logo">
-                <div class="d-none d-lg-block">
-                    <a href="tel:1800222000" class="widget-text text-white-hover fs-16 lg-fs-15"><i class="feather icon-feather-phone icon-small me-5px lg-me-2px"></i>1 800 222 000</a>
-                </div> 
-                <a class="navbar-brand tw-ml-8 tw-mr-8 tw-w-14" href="demo-spa-salon.html">
-                    <img src="{{asset('images/gambar/logoiwu.png')}}"  alt="" class="default-logo">
-                    <img src="{{asset('images/gambar/logoiwu.png')}}"  alt="" class="alt-logo">
-                    <img src="{{asset('images/gambar/logoiwu.png')}}" alt="" class="mobile-logo">
-                </a>   
+    <nav class="navbar navbar-expand-lg header-transparent bg-transparent disable-fixed border-bottom border-color-transparent-white-light lg:tw-mt-12">
+        <div class="container-fluid"> 
+            <div class="col-auto">
+                <a class="navbar-brand" href="demo-lawyer.html">
+                    <img src="{{asset('images/gambar/logoiwu.png')}}" data-at2x="{{asset('images/gambar/logoiwu.png')}}" alt="" class="default-logo">
+                    <img src="{{asset('images/gambar/logoiwu.png')}}" data-at2x="{{asset('images/gambar/logoiwu.png')}}" alt="" class="alt-logo">
+                    <img src="{{asset('images/gambar/logoiwu.png')}}" data-at2x="{{asset('images/gambar/logoiwu.png')}}" alt="" class="mobile-logo">
+                </a>
             </div>
-            <div class="col-auto col-lg-8 menu-order">
-                <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+            <div class="col-auto menu-order left-nav ps-60px lg-ps-20px md-ps-15px">
+                <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
                     <span class="navbar-toggler-line"></span>
                     <span class="navbar-toggler-line"></span>
                     <span class="navbar-toggler-line"></span>
                     <span class="navbar-toggler-line"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">  
-                    <ul class="navbar-nav navbar-left justify-content-end"> 
-                        <li class="nav-item"><a href="demo-spa-salon.html" class="nav-link">Beranda</a></li>
-                        <li class="nav-item"><a href="demo-spa-salon-about.html" class="nav-link">Tentang Kami</a></li>
-                        <li class="nav-item"><a href="demo-spa-salon-treatments.html" class="nav-link">Akademik</a></li> 
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav"> 
+                        <li class="nav-item"><a href="/" class="nav-link">Beranda</a></li>
+                        <li class="nav-item dropdown dropdown-with-icon-style02">
+                            <a href="/tentang" class="nav-link">Tentang Kami</a>
+                            <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                    <a href="/tentang"><i class="bi bi-info-circle"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Tentang Ilmu Politik</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/visi-misi-tujuan"><i class="bi bi-bullseye"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Visi, Misi dan Tujuan</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/struktur-organisasi"><i class="bi bi-diagram-3"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Struktur Organisasi</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                <a href="/fasilitas"><i class="bi bi-house-door"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Fasilitas</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/dosen"><i class="bi bi-mortarboard"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Dosen</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/akreditasi"><i class="bi bi-check-circle"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Akreditasi</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/karir"><i class="bi bi-briefcase"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Karir</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        </li>
+                        <li class="nav-item dropdown dropdown-with-icon-style02">
+                            <a href="/kurikulum" class="nav-link">Akademik</a>
+                            <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                    <a href="/kurikulum"><i class="bi bi-journal-bookmark"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Kurikulum</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/profil-lulusan"><i class="bi bi-person-check"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Profil Lulusan</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown dropdown-with-icon-style02">
+                            <a href="/artikel" class="nav-link">Publikasi</a>
+                            <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                    <a href="/artikel"><i class="bi bi-journal"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Artikel</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/berita"><i class="bi bi-newspaper"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Berita</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/kegiatan"><i class="bi bi-calendar-event"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Kegiatan</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown dropdown-with-icon-style02">
+                            <a href="https://pmb.iwu.ac.id/" class="nav-link">Daftar Sekarang!</a>
+                            <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                    <a href="https://pmb.iwu.ac.id/"><i class="bi bi-pencil-square"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Pendaftaran</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/jadwal-penerimaan"><i class="bi bi-calendar-event"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Jadwal Penerimaan</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/persyaratan-masuk"><i class="bi bi-check-circle"></i>
+                                        <div class="submenu-icon-content">
+                                            <span>Persyaratan Masuk</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li> 
                     </ul>
-                    <ul class="navbar-nav navbar-right justify-content-start"> 
-                        <li class="nav-item"><a href="demo-spa-salon-packages.html" class="nav-link">Publikasi</a></li>
-                        <li class="nav-item"><a href="demo-spa-salon-facility.html" class="nav-link">Fasilitas</a></li>
-                        <li class="nav-item"><a href="demo-spa-salon-contact.html" class="nav-link">Daftar Sekarang !</a></li> 
-                    </ul> 
                 </div>
-            </div> 
-            <div class="col-auto col-lg-2 text-end">
-                <div class="header-icon">  
-                    <div class="header-social-icon icon">
-                        <a href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="col-auto ms-auto d-none d-lg-flex">  
+                <div class="header-icon">
+                    <div class="d-none d-xxl-flex me-25px xl-me-20px lg-me-0">
+                        <div class="d-flex align-items-center widget-text"><span class="w-40px h-40px bg-base-color d-flex align-items-center justify-content-center me-10px rounded-circle fs-15"><i class="bi bi-telephone-outbound"></i></span><a href="tel:1234567890" class="widget-text text-white-hover">123 456 7890</a></div>
                     </div>
                 </div>
             </div>
