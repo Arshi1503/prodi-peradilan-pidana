@@ -11,7 +11,7 @@ export default {
       colors: {
         primary: '#0D1B2A', // biru tua (kekuatan, keadilan, profesional)
         secondary: '#25313f', // biru keunguan (berwibawa dan elegan)
-        soft: '#A5B4FC', // biru muda lembut (untuk aksen ringan)
+        accent: '#555f69', // biru muda lembut (untuk aksen ringan)
       }
     },
   },
