@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Jadwal Penerimaan')
 @section('content')
-        <section id="profil" class="mb-0 pb-0" style="margin-top: 50px;">
+        <section id="profil" class="tw-mb-[50px] pb-0" style="margin-top: 50px;">
             <div class="container text-center">
                 <div class="card shadow-lg border-0 rounded-3 overflow-hidden"
                     data-anime='{ "opacity": [0,1], "translateY": [30, 0], "duration": 600, "delay":100, "easing": "easeOutQuad" }'>
