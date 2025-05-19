@@ -27,7 +27,7 @@
                         <div x-data="{ open: false }" class="d-flex justify-content-center align-items-center tw-w-full tw-relative" 
                             data-anime='{ "effect": "slide", "color": "#ffffff", "direction":"lr", "easing": "easeOutQuad", "delay":50}'>
                             <img 
-                            class="w-50" 
+                            class="tw-w-full lg:tw-w-[50%]" 
                             src="{{ asset('storage/' . $akreditasi->foto) }}" 
                             alt=""
                             @click="open = true">

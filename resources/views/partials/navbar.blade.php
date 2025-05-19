@@ -1,6 +1,6 @@
 <header>
     @php
-        $navTextClass = $isHome ? '!tw-text-gray-200 !hover:tw-text-white' : '!tw-text-gray-800 !hover:tw-text-black';
+        $navTextClass = $isHome ? '!tw-text-black lg:!tw-text-gray-200 !hover:tw-text-white ' : '!tw-text-gray-800 !hover:tw-text-black';
     @endphp
     <div class="tw-w-full tw-bg-primary tw-shadow tw-pt-3 tw-pb-0.5 tw-px-6 tw-flex tw-justify-between tw-items-center tw-text-sm tw-font-medium tw-sticky tw-top-0">
 
